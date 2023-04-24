@@ -26,7 +26,9 @@ img {
 }
 
 .navbar {
+  position: fixed;
   display: flex;
+  width: 100vw;
   justify-content: space-between;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   padding: 0.4rem 3rem;
@@ -55,4 +57,8 @@ nav > ul a.active {
 #border {
   border-right: 1.5px solid grey;
   padding-right: 1rem;
+}
+
+.missionBody {
+  padding-top: 7%;
 }
