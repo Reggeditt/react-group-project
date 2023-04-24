@@ -30,10 +30,10 @@ img {
   justify-content: space-between;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   padding: 0.4rem 3rem;
-  background: rgb(255,255,255);
-  background: linear-gradient(156deg, rgba(255,255,255,1) 25%, rgba(54,55,57,1) 85%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(156deg, rgba(255, 255, 255, 1) 25%, rgba(54, 55, 57, 1) 85%);
   font-size: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 nav > ul {

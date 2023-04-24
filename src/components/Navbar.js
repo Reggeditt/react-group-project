@@ -4,7 +4,8 @@ import logo from '../assets/planet.png';
 const links = [
   { path: '/', text: 'Rockets', id: 'border' },
   { path: 'missions', text: 'Missions', id: 'border' },
-  { path: 'profile', text: 'Profile' },
+  { path: 'profile', text: 'Profile', id: 'border' },
+  { name: 'Dragons', text: 'Dragons' },
 ];
 
 const Navbar = () => (
