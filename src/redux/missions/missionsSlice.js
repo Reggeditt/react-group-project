@@ -16,7 +16,7 @@ export const missionsSlice = createSlice({
     [fetchMissions.fulfilled]: (state, action) => {
       let newState = state.missions;
       newState = action.payload;
-      console.log(newState);
+      return newState;
     },
   },
 });
