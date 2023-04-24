@@ -12,7 +12,7 @@ function Missions() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="missionBody">
       <table>
         <thead>
           <tr>

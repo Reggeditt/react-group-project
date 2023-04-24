@@ -58,3 +58,7 @@ nav > ul a.active {
   border-right: 1.5px solid grey;
   padding-right: 1rem;
 }
+
+.missionBody {
+  padding-top: 9%;
+}
