@@ -9,7 +9,7 @@ function Missions() {
 
   useEffect(() => {
     dispatch(fetchMissions());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>

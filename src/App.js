@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Missions from './components/Missions';
 import Profile from './components/Profile';
+import Dragons from './components/Dragons';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="missions" element={<Missions />} />
         <Route path="profile" element={<Profile />} />
+        <Route path="Dragons" element={<Dragons />} />
       </Route>
     </Routes>
   );
