@@ -15,12 +15,12 @@ export const missionsSlice = createSlice({
     joinMission: (state, action) => {
       const newGuy = state.find((mission) => mission.mission_id === action.payload);
       newGuy.reserved = true;
-      console.log(`state: ${state} \t action: ${newGuy.reserved}`);
+      // console.log(`state: ${state} \t action: ${newGuy.reserved}`);
     },
     leaveMission: (state, action) => {
       const newGuy = state.find((mission) => mission.mission_id === action.payload);
       newGuy.reserved = false;
-      console.log(`state: ${state} \t action: ${newGuy.reserved}`);
+      // console.log(`state: ${state} \t action: ${newGuy.reserved}`);
     },
   },
   extraReducers: {
