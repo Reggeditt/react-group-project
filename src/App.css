@@ -59,6 +59,7 @@ nav > ul a.active {
   padding-right: 1rem;
 }
 
-.missionBody {
-  padding-top: 7%;
+.missionBody,
+.rocketBody {
+  padding-top: 10%;
 }
