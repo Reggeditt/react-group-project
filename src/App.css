@@ -175,7 +175,7 @@ td {
   border-radius: 5px;
 }
 
-td button {
+td .btn {
   background-color: #fff;
   color: #343a40;
   font-size: 20px;
@@ -184,7 +184,7 @@ td button {
   border-radius: 5px;
 }
 
-td button:focus {
+td .btn-active {
   color: #dc3645;
   border: 1px solid #dc3645;
 }

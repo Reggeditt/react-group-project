@@ -12,9 +12,11 @@ const MissionEntry = ({ mission }) => {
     if (status === 'Join mission') {
       dispatch(joinMission(statusID));
       e.target.innerHTML = 'Leave mission';
+      e.target.className = 'btn btn-active';
     } else {
       dispatch(leaveMission(statusID));
       e.target.innerHTML = 'Join mission';
+      e.target.className = 'btn';
     }
   };
   return (
@@ -30,6 +32,7 @@ const MissionEntry = ({ mission }) => {
         <button
           type="button"
           id={mission.mission_id}
+          className="btn"
           onClick={(e) => membershipStatus(e)}
         >
           Join mission
