@@ -16,10 +16,10 @@ function Missions() {
       <table>
         <thead>
           <tr>
-            <th>Mission</th>
-            <th>Description</th>
-            <th>Status</th>
-            <th>Option</th>
+            <th className="t-mission">Mission</th>
+            <th className="t-description">Description</th>
+            <th className="t-status">Status</th>
+            <th className="t-option">Option</th>
           </tr>
         </thead>
         <tbody>
