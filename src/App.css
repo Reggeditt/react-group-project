@@ -60,6 +60,7 @@ nav > ul a.active {
 }
 
 .missionBody,
+.dragonBody,
 .rocketBody {
-  padding-top: 10%;
+  padding-top: 8%;
 }
