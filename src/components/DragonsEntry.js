@@ -10,11 +10,11 @@ const DragonEntry = ({
 
   return (
     <>
-      <article className="dragon">
-        <div className="dragon-image">
-          <img src={img} alt="" />
+      <article className="rocket">
+        <div className="image-container">
+          <img className="rocket-img" src={img} alt="" />
         </div>
-        <div className="dragon-detail">
+        <div className="rocket-detail-container">
           <h2>{name}</h2>
           <p>
             {reserved && <span className="reservation">Reserved</span>}

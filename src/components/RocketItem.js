@@ -15,9 +15,9 @@ const RocketItem = ({
     <>
       <article className="rocket">
         <div className="image-container">
-          <img src={img} alt="placeholder" />
+          <img className="rocket-img" src={img} alt="placeholder" />
         </div>
-        <div className="detail-container">
+        <div className="rocket-detail-container">
           <h2>{name}</h2>
           <p>
             {reserved && <span className="reservation">Reserved</span>}

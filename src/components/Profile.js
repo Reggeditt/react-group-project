@@ -9,24 +9,8 @@ const Profile = () => {
   const dragons = useSelector((store) => store.dragons);
   const filteredDragons = dragons.filter((dragon) => dragon.reserved === true);
   return (
-    <div>
-      <div>
-        <h2>
-          {/* these will have to be removed later when we're styling */}
-          <br />
-          <br />
-          <br />
-          My Missions
-        </h2>
-        <ul>
-          {
-            myMissions.map((mission) => (
-              <li key={mission.mission_id}>{mission.mission_name}</li>
-            ))
-          }
-        </ul>
-      </div>
-      <div className="subcribed-rockets margin">
+    <div className="profile-page-wrap profileBody">
+      <div className="profile-contents-wrap">
         <h2>My Rockets</h2>
         <ul>
           {filteredRockets.map((rocket) => {
@@ -35,7 +19,17 @@ const Profile = () => {
           })}
         </ul>
       </div>
-      <div className="subcribed-rockets margin">
+      <div className="profile-contents-wrap">
+        <h2>My Missions</h2>
+        <ul>
+          {
+            myMissions.map((mission) => (
+              <li key={mission.mission_id}>{mission.mission_name}</li>
+            ))
+          }
+        </ul>
+      </div>
+      <div className="profile-contents-wrap">
         <h2>My Dragons</h2>
         <ul>
           {filteredDragons.map((dragon) => {

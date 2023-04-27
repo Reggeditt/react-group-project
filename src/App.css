@@ -7,6 +7,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -30,7 +31,6 @@ img {
   display: flex;
   width: 100vw;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   padding: 0.4rem 3rem;
   background: rgb(255, 255, 255);
   background: linear-gradient(156deg, rgba(255, 255, 255, 1) 25%, rgba(54, 55, 57, 1) 85%);
@@ -46,7 +46,7 @@ nav > ul {
 }
 
 nav > ul a {
-  color: rgb(153, 147, 147);
+  color: rgb(228, 226, 226);
   text-decoration: none;
 }
 
@@ -61,6 +61,158 @@ nav > ul a.active {
 
 .missionBody,
 .dragonBody,
+.rocketBody,
+.profileBody {
+  padding-top: 10%;
+}
+
+/* rocket */
 .rocketBody {
-  padding-top: 8%;
+  display: grid;
+  gap: 30px;
+}
+
+.rocket {
+  display: flex;
+  margin: auto 5%;
+  gap: 20px;
+}
+
+.rocket-img {
+  width: 400px;
+  height: 250px;
+}
+
+.rocket-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.rocket-detail-container h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.rocket-detail-container p {
+  font-size: 18px;
+}
+
+.reservation {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 3px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.cancelbtn {
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid #6d757d;
+  border-radius: 8px;
+  color: #6d757d;
+}
+
+.reservebtn {
+  padding: 10px;
+  width: 200px;
+  font-size: 20px;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Missions */
+table {
+  margin: auto 6%;
+  border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+  border: 1px solid #000;
+}
+
+th {
+  font-size: 23px;
+  padding: 5px;
+  background-color: rgb(10, 10, 54);
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.mission-description {
+  font-size: 15px;
+}
+
+.t-mission,
+.t-status,
+.t-option {
+  width: 13%;
+}
+
+.active-member {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.not-a-member {
+  background-color: #6d757d;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+
+td .btn {
+  background-color: #fff;
+  color: #343a40;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid #343a40;
+  border-radius: 5px;
+}
+
+td .btn-active {
+  color: #dc3645;
+  border: 1px solid #dc3645;
+}
+
+.profile-page-wrap {
+  padding-inline: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+.profile-contents-wrap h2 {
+  text-align: center;
+}
+
+.profile-contents-wrap ul {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.profile-contents-wrap ul > * {
+  padding: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid lightgrey;
+  color: #000;
+  font-size: 20px;
 }
