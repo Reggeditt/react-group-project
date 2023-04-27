@@ -20,10 +20,10 @@ const MissionEntry = ({ mission }) => {
   return (
     <tr>
       <td>{mission.mission_name}</td>
-      <td>{mission.description}</td>
+      <td className="mission-description">{mission.description}</td>
       <td>
         {
-          mission.reserved ? 'Active Member' : 'NOT A MEMBER'
+          mission.reserved ? <p className="active-member">Active Member</p> : <p className="not-a-member">NOT A MEMBER</p>
         }
       </td>
       <td>
