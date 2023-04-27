@@ -18,7 +18,7 @@ function Dragons() {
     }
   }, [dispatch, dragonsData.length]);
   return (
-    <div className="dragonBody">
+    <div className="rocketBody">
       {dragonsData.map((dragon) => (
         <DragonEntry
           key={dragon.id}
