@@ -68,8 +68,7 @@ nav > ul a.active {
 /* rocket */
 .rocketBody {
   display: grid;
-  gap: 30px;width: 100%;
-  height: 100%;
+  gap: 30px;
 }
 
 .rocket {
@@ -124,4 +123,54 @@ nav > ul a.active {
   border: 1px solid #007bff;
   border-radius: 8px;
   color: #fff;
+}
+
+/* Missions */
+table {
+  margin: auto 6%;
+  border-collapse: collapse;
+}
+
+
+
+th, tr, td {
+  border: 1px solid #000;
+}
+
+th {
+  font-size: 23px;
+  padding: 5px;
+  background-color: rgb(10, 10, 54);
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.mission-description {
+  font-size: 15px;
+}
+
+.t-mission, .t-status, .t-option {
+  width: 13%;
+}
+
+.active-member {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.not-a-member {
+  background-color: #6d757d;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
 }
