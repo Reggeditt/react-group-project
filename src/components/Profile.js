@@ -6,6 +6,8 @@ const Profile = () => {
   const myMissions = missions.filter((mission) => mission.reserved === true);
   const rockets = useSelector((store) => store.rockets);
   const filteredRockets = rockets.filter((rocket) => rocket.reserved === true);
+  const dragons = useSelector((store) => store.dragons);
+  const filteredDragons = dragons.filter((dragon) => dragon.reserved === true);
   return (
     <div>
       <div>
@@ -30,6 +32,15 @@ const Profile = () => {
           {filteredRockets.map((rocket) => {
             const rocketId = rocket.id;
             return <li key={rocketId}>{rocket.name}</li>;
+          })}
+        </ul>
+      </div>
+      <div className="subcribed-rockets margin">
+        <h2>My Dragons</h2>
+        <ul>
+          {filteredDragons.map((dragon) => {
+            const dragonId = dragon.id;
+            return <li key={dragonId}>{dragon.name}</li>;
           })}
         </ul>
       </div>
