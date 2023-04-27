@@ -174,3 +174,17 @@ td {
   padding: 3px 15px;
   border-radius: 5px;
 }
+
+td button {
+  background-color: #fff;
+  color: #343a40;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid #343a40;
+  border-radius: 5px;
+}
+
+td button:focus {
+  color: #dc3645;
+  border: 1px solid #dc3645;
+}
