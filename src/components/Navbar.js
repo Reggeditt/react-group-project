@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/spaceTravelers-removebg-preview.png';
+import logo from '../assets/planet.png';
 
 const links = [
   { path: '/', text: 'Rockets', id: 'border' },
   { path: 'missions', text: 'Missions', id: 'border' },
+  { path: 'dragons', text: 'Dragons', id: 'border' },
   { path: 'profile', text: 'Profile' },
 ];
 

@@ -1,4 +1,4 @@
-# spacehub-capstone
+# React-group-Project
 <a name="readme-top"></a>
 
 <div align="center">
@@ -108,7 +108,7 @@ The Project will be deployed after final approval.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Functionality of fetching Data from APIs and displaying in UI. Functionality of reservations of rockets and missions will be implemented in the final version. In future we can add more features to enhanc our features**
+- [ ] **Functionality of fetching Data from APIs and displaying in UI. Functionality of reservations of rockets and missions will be implemented in the final version. In future we can add more features to enhanc our features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +133,7 @@ I would like to thank my coding partner's Tetteh Kodjo-Sarso
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <a name="readme-top"></a>
