@@ -31,7 +31,7 @@ const RocketItem = ({
                 dispatch(cancelReservations(id));
               }}
             >
-              Cancel Reservation
+              Cancel
             </button>
           ) : (
             <button

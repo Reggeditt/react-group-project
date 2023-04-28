@@ -29,7 +29,7 @@ const DragonEntry = ({
                 // console.log('you good?');
               }}
             >
-              Cancel Reservation
+              Cancel
             </button>
           ) : (
             <button
